@@ -27,17 +27,6 @@ const Header = () => {
           <Button
             variant="default"
             className="bg-[#0f172a] hover:bg-[##33310b] text-white"
-            sx="    .scroll-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 16px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }"
           >
             Contact Me
           </Button>
