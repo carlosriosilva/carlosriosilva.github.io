@@ -11,7 +11,7 @@ const Header = () => {
         </a>
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/carlosriosilva"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-[#8B5CF6] transition-colors"
@@ -34,7 +34,7 @@ const Header = () => {
           </a>
           <Button
             variant="default"
-            className="bg-[#8B5CF6] hover:bg-[#7C3AED] text-white"
+            className="bg-[#0f172a] hover:bg-[#afa72a] text-white"
           >
             Download CV
           </Button>
