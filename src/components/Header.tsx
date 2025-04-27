@@ -14,7 +14,7 @@ const Header = () => {
             href="https://github.com/carlosriosilva"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-[#8B5CF6] transition-colors"
+            className="text-gray-600 hover:text-[#0f172a] transition-colors"
           >
             <Github className="w-5 h-5" />
           </a>
@@ -22,19 +22,19 @@ const Header = () => {
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-[#8B5CF6] transition-colors"
+            className="text-gray-600 hover:text-[#0f172a] transition-colors"
           >
             <Linkedin className="w-5 h-5" />
           </a>
           <a
             href="mailto:carlos.silvario41@email.com"
-            className="text-gray-600 hover:text-[#8B5CF6] transition-colors"
+            className="text-gray-600 hover:text-[#0f172a] transition-colors"
           >
             <Mail className="w-5 h-5" />
           </a>
           <Button
             variant="default"
-            className="bg-[#0f172a] hover:bg-[#afa72a] text-white"
+            className="bg-[#0f172a] hover:bg-[##33310b] text-white"
           >
             Download CV
           </Button>

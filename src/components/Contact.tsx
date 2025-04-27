@@ -16,7 +16,7 @@ const Contact = () => {
           </p>
           <Button
             variant="default"
-            className="bg-[#8B5CF6] hover:bg-[#7C3AED] text-white inline-flex items-center gap-2"
+            className="bg-[#0f172a] hover:bg-[#7C3AED] text-white inline-flex items-center gap-2"
             onClick={() => window.location.href = 'mailto:carlos.silvario41@email.com'}
           >
             <Mail className="w-5 h-5" />

@@ -35,11 +35,11 @@ const Experience = () => {
           {experiences.map((exp) => (
             <div
               key={exp.period}
-              className="relative pl-8 border-l-2 border-[#8B5CF6]"
+              className="relative pl-8 border-l-2 border-[#0f172a]"
             >
-              <div className="absolute w-4 h-4 bg-[#8B5CF6] rounded-full -left-[9px] top-0" />
+              <div className="absolute w-4 h-4 bg-[#0f172a] rounded-full -left-[9px] top-0" />
               <h3 className="text-xl font-bold text-[#1A1F2C]">{exp.title}</h3>
-              <p className="text-[#8B5CF6] font-semibold">{exp.company}</p>
+              <p className="text-[#0f172a] font-semibold">{exp.company}</p>
               <p className="text-gray-600 mb-4">
                 {exp.location} | {exp.period}
               </p>
