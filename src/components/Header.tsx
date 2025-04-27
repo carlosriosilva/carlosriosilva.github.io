@@ -27,7 +27,7 @@ const Header = () => {
           <Button
             variant="default"
             className="bg-[#0f172a] hover:bg-[##33310b] text-white"
-            style="    .scroll-button {
+            sx="    .scroll-button {
       position: fixed;
       bottom: 20px;
       right: 20px;
