@@ -6,7 +6,7 @@ const experiences = [
     location: "São Paulo, Brasil",
     period: "Enero 2022 – Actualidad",
     achievements: [
-      "Lideré la implementación de una estrategia robusta de infraestructura como código (IaC) utilizando Terraform y AWS, reduciendo la intervención manual y el tiempo de implementación en un 40%.",
+      "Lideré la implementación de una estrategia robusta de infraestructura como código (IaC) utilizando Layer5 Kanvas https://layer5.io/kanvas, Terraform y AWS, reduciendo la intervención manual y el tiempo de implementación en un 40%.",
       "Diseñé y mantuve clústeres de Kubernetes escalables para ejecutar microservicios, logrando un tiempo de actividad del 99.9% para sistemas de producción.",
       "Gestioné tuberías de CI/CD utilizando Jenkins y GitLab CI, optimizando los tiempos de compilación y mejorando la productividad de los desarrolladores.",
     ],
