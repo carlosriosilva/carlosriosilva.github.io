@@ -2,11 +2,11 @@
 const skillCategories = [
   {
     title: "Configuration Management & Cloud",
-    skills: ["Ansible", "Puppet", "Chef", "AWS", "GCP", "Azure"],
+    skills: ["Ansible", "Layer5", "Kanvas", "AWS", "GCP", "Azure"],
   },
   {
     title: "Infrastructure & Containers",
-    skills: ["Terraform", "Docker", "Kubernetes", "Helm", "CloudFormation"],
+    skills: ["Terraform", "Docker", "Kubernetes", "Helm", "CloudFormation", "Meshery"],
   },
   {
     title: "CI/CD & Version Control",
