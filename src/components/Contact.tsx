@@ -14,6 +14,7 @@ const Contact = () => {
             I'm always interested in hearing about new opportunities and exciting
             projects. Feel free to reach out!
           </p>
+          <div className="container mx-auto px-4">
           <Button
             variant="default"
             className="bg-[#0f172a] hover:bg-[#7C3AED] text-white inline-flex items-center gap-2"
@@ -38,6 +39,7 @@ const Contact = () => {
           >
             <Github className="w-5 h-5" />
           </a>
+          </div>
         </div>
       </div>
     </section>
