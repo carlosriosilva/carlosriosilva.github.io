@@ -1,5 +1,5 @@
 
-import { Mail } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -22,6 +22,22 @@ const Contact = () => {
             <Mail className="w-5 h-5" />
             Send me an email
           </Button>
+           <a
+            href="https://www.linkedin.com/in/carlos-silva-4243563a4/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-[#0f172a] transition-colors"
+          >
+            <Linkedin className="w-5 h-5" />
+          </a>
+          <a
+            href="https://github.com/carlosriosilva"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-[#0f172a] transition-colors"
+          >
+            <Github className="w-5 h-5" />
+          </a>
         </div>
       </div>
     </section>
