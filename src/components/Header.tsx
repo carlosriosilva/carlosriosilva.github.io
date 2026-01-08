@@ -11,6 +11,14 @@ const Header = () => {
         </a>
         <div className="flex items-center gap-4">
           <a
+            href="https://www.linkedin.com/in/carlos-silva-4243563a4/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-[#0f172a] transition-colors"
+          >
+            <Linkedin className="w-5 h-5" />
+          </a>
+          <a
             href="https://github.com/carlosriosilva"
             target="_blank"
             rel="noopener noreferrer"
