@@ -27,7 +27,7 @@ const Header = () => {
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="mailto:carlos.silvario41@email.com"
+            href="mailto:carlos.silvario41@gmail.com"
             className="text-gray-600 hover:text-[#0f172a] transition-colors"
           >
             <Mail className="w-5 h-5" />
