@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="flex items-center justify-center gap-2 mb-4">
           <Umbrella className="w-8 h-8 text-secondary" />
           <h1 className="text-4xl md:text-6xl font-bold text-foreground">
-            Carlos Silva
+            Carlos Río Silva
           </h1>
         </div>
         <h2 className="text-xl md:text-2xl text-secondary mb-6">
