@@ -4,33 +4,34 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Palette sourced from Carlos's avatar: deep violet night, electric cyan, magenta glow, amber skyline */
+    --background: 260 30% 99%;
+    --foreground: 265 35% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 265 35% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 265 35% 10%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 193 85% 40%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 271 45% 22%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 265 20% 95%;
+    --muted-foreground: 265 15% 40%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 327 85% 92%;
+    --accent-foreground: 327 70% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 265 25% 88%;
+    --input: 265 25% 88%;
+    --ring: 193 85% 40%;
 
     --radius: 0.5rem;
 
@@ -52,33 +53,33 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 265 45% 8%;
     --foreground: 210 40% 98%;
 
-    --card: 222.2 84% 4.9%;
+    --card: 265 40% 11%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 222.2 84% 4.9%;
+    --popover: 265 40% 11%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 193 90% 55%;
+    --primary-foreground: 265 45% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 327 60% 45%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 265 30% 18%;
+    --muted-foreground: 265 15% 70%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 38 90% 58%;
+    --accent-foreground: 265 45% 10%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 265 30% 22%;
+    --input: 265 30% 22%;
+    --ring: 193 90% 55%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -97,5 +98,11 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
   }
 }

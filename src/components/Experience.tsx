@@ -1,49 +1,60 @@
 
 const experiences = [
   {
-    title: "Ingeniero de Software",
+    title: "Software Engineer",
     company: "Tech Solutions Brasil",
-    location: "São Paulo, Brasil",
-    period: "Enero 2022 – Actualidad",
+    location: "São Paulo, Brazil",
+    period: "January 2022 – Present",
     achievements: [
-      "Lideré la implementación de una estrategia robusta de infraestructura como código (IaC) utilizando Layer5 Kanvas https://layer5.io/kanvas, Terraform y AWS, reduciendo la intervención manual y el tiempo de implementación en un 40%.",
-      "Diseñé y mantuve clústeres de Kubernetes escalables para ejecutar microservicios, logrando un tiempo de actividad del 99.9% para sistemas de producción.",
-      "Gestioné tuberías de CI/CD utilizando Jenkins y GitLab CI, optimizando los tiempos de compilación y mejorando la productividad de los desarrolladores.",
+      "Led the rollout of a robust infrastructure-as-code (IaC) strategy using Layer5 Kanvas, Terraform, and AWS, cutting manual intervention and deployment time by 40%.",
+      "Designed and maintained scalable Kubernetes clusters to run microservices, achieving 99.9% uptime for production systems.",
+      "Managed CI/CD pipelines using Jenkins and GitLab CI, optimizing build times and improving developer productivity.",
     ],
   },
   {
-    title: "Ingeniero DevOps",
+    title: "DevOps Engineer",
     company: "GlobalTech Solutions",
-    location: "Remoto (Brasil)",
-    period: "Agosto 2018 – Diciembre 2021",
+    location: "Remote (Brazil)",
+    period: "August 2018 – December 2021",
     achievements: [
-      "Abanderé la migración de infraestructura local a AWS, mejorando el rendimiento del sistema en un 30% y reduciendo los costos operativos en un 25%.",
-      "Gestioné infraestructura de AWS con múltiples regiones y múltiples cuentas, incluyendo VPCs, instancias EC2, bases de datos RDS y almacenamiento S3.",
-      "Desarrollé tuberías de implementación automatizadas utilizando Jenkins, permitiendo una entrega de software más rápida y reduciendo los errores de implementación.",
+      "Spearheaded the migration from on-premises infrastructure to AWS, improving system performance by 30% and cutting operational costs by 25%.",
+      "Managed multi-region, multi-account AWS infrastructure, including VPCs, EC2 instances, RDS databases, and S3 storage.",
+      "Built automated deployment pipelines using Jenkins, enabling faster software delivery and reducing deployment errors.",
+    ],
+  },
+  {
+    title: "Teaching Assistant",
+    company: "Undergraduate Computer Science Program",
+    location: "Brazil",
+    period: "During undergraduate studies",
+    achievements: [
+      "Led weekly lab sections and office hours, helping students debug code and work through core computer science concepts.",
+      "Graded assignments and exams, giving feedback that helped students strengthen their understanding of the material.",
+      "Mentored first-year students transitioning into programming, an early foothold for what became a DevOps and infrastructure career.",
     ],
   },
 ];
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-purple-50">
+    <section id="experience" className="py-20 bg-muted scroll-mt-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-[#1A1F2C]">
+        <h2 className="text-3xl font-bold text-center mb-12 text-foreground">
           Experience
         </h2>
         <div className="max-w-3xl mx-auto space-y-12">
           {experiences.map((exp) => (
             <div
               key={exp.period}
-              className="relative pl-8 border-l-2 border-[#0f172a]"
+              className="relative pl-8 border-l-2 border-primary"
             >
-              <div className="absolute w-4 h-4 bg-[#0f172a] rounded-full -left-[9px] top-0" />
-              <h3 className="text-xl font-bold text-[#1A1F2C]">{exp.title}</h3>
-              <p className="text-[#0f172a] font-semibold">{exp.company}</p>
-              <p className="text-gray-600 mb-4">
+              <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-0" />
+              <h3 className="text-xl font-bold text-foreground">{exp.title}</h3>
+              <p className="text-foreground font-semibold">{exp.company}</p>
+              <p className="text-muted-foreground mb-4">
                 {exp.location} | {exp.period}
               </p>
-              <ul className="list-disc list-inside space-y-2 text-gray-600">
+              <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                 {exp.achievements.map((achievement, index) => (
                   <li key={index}>{achievement}</li>
                 ))}

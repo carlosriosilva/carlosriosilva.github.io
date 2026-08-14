@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center pt-16 px-4 relative bg-background"
+      className="min-h-screen flex flex-col items-center justify-center pt-16 px-4 relative bg-background scroll-mt-20"
     >
       <div className="absolute inset-0 z-0">
         <Carousel className="w-full h-full">
@@ -41,12 +41,20 @@ const Hero = () => {
             Carlos Río Silva
           </h1>
         </div>
-        <h2 className="text-xl md:text-2xl text-secondary mb-6">
+        <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
           Software Engineer | Configuration Management | Infrastructure Operations
         </h2>
-        <p className="text-lg text-secondary mb-8 flex items-center justify-center gap-2">
+        <p className="text-lg text-muted-foreground mb-4 flex items-center justify-center gap-2">
           Based in São Paulo, Brazil 🇧🇷
         </p>
+        <div className="flex flex-wrap items-center justify-center gap-2 mb-8">
+          <span className="px-3 py-1 rounded-full text-sm bg-muted text-muted-foreground border border-border transition-transform hover:scale-105">
+            🌎 Remote-friendly · GMT-3
+          </span>
+          <span className="px-3 py-1 rounded-full text-sm bg-muted text-muted-foreground border border-border transition-transform hover:scale-105">
+            ⚽ Football fanatic
+          </span>
+        </div>
         <div className="space-x-4">
           <a
             href="#about"
